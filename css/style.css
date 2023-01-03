@@ -1,0 +1,184 @@
+@font-face{
+    font-family: 'Droid';
+    src: url('../fontes/IDroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: #84E1AD;
+}
+
+main{
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 1em;
+}
+#grade{
+    background-color: #2d9e60;
+    background-image: linear-gradient(to bottom, #3CD681,#1A5C38);
+    color: white;
+}
+
+#textcabecalho{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+#paramcabecalho{ 
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30PX;
+    color: rgb(221, 219, 219);
+    
+}
+nav{
+    margin-left: 50px;
+    padding-bottom: 10px;
+    
+}
+
+nav a{
+    padding-right: 30px;
+    font-size: 14px;
+    padding-left: 40px;
+    border-radius: 3px;
+   margin-left: 10px;
+    
+
+    text-decoration: none;
+    
+    color: white;
+    
+    transition: 0.6s;
+}
+
+nav a:hover{
+    background-color:#36c975;
+    color: #0b2b19;
+}
+#container{
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    margin: auto;
+}
+
+#titulo{
+    font-family: 'Droid';
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #296745;
+}
+
+.subtitulo{
+    font-family: 'Droid';
+    color: #296745;
+    font-size: 20px;
+    background-image: linear-gradient(to right,#C8ECD8,#FEFFFF );
+    padding-left: 10px;
+    margin: 20px;
+}
+
+.editparagrafo{
+    margin: 10px;
+    text-indent: 30px;
+    text-align: justify;
+}
+.editImg{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+div.editVideo{
+    background-color: #0b2b19;
+    margin: 0px 0px 30px 0px ;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+#iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+
+
+#caixa{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#caixatext{
+    background-color: #2FA866;
+    color: white;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 15px;
+}
+
+#caixaP{
+    text-indent: 30px;
+    margin: 10px;
+}
+
+#listaE{
+    width: 30%;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+#listaD{
+    padding-left: 300px;
+    margin-top: -120px;
+}
+
+#textcaixa{
+    text-align: justify;
+    text-indent: 30px;
+    padding: 20px 10px 30px 10px;
+    
+}
+
+#textFinal{
+    text-indent: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+    padding: 10px;
+}
+
+#rodape{
+    background-color: #164e2f;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+main img{
+    width: 100%;
+}
+
+section{
+    text-align: justify;
+}
+
