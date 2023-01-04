@@ -47,6 +47,8 @@ main p{
     
 }
 nav{
+    min-width: 300px;
+    max-width: 1000px;
     margin-left: 50px;
     padding-bottom: 10px;
     
